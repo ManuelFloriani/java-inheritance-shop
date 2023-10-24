@@ -35,8 +35,43 @@ public class Carrello {
     public static void main(String[] args) {
         Carrello carrello = new Carrello();
         Scanner scanner = new Scanner(System.in);
+//Chiedo quanti prodotti vuole inserire l'utente
+     //   System.out.println("Quanti prodotti vuoi inserire?");
+   //     int cartSize = Integer.parseInt(scanner.nextLine());
+//        con questa dimensione creo un array di product
+    //    Prodotto[] carrello = new Prodotto[cartSize];
+//Per ogni posizione dell'array devo chiedere di inserire un prodotto
+    //    for (int i = 0; i < cart.lenght; i++) {
+      //  System.out.println("inserisci prodotto " + (i+1));
 
-
+//        boolean invalidChoice = false;
+//        do {
+            //    System.out.println("che tipo di prodotto?");
+            //   System.out.println("1-Smartphone, 2-TV, 3-Cuffie");
+//        String choice = scanner.nextLine();
+//            switch (choice){
+//                case "1":
+//                    //Smartphone
+//                    System.out.println("Smartphone");
+//                    invalidChoice = false;
+//                    break;
+//                case "2":
+//                    //tv
+//                    System.out.println("tv");
+//                    invalidChoice = false;
+//                    break;
+//                case "3":
+//                    //cuffie
+//                    System.out.println("Cuffie");
+//                    invalidChoice = false;
+//                    break;
+//                default:
+//                    System.out.println("Scelta non valida");
+//                    invalidChoice = true;
+//                    break;
+//            }
+//        } while (invalidChoice);
+        //   }
 
         while (true) {
             System.out.println("INSERISCI IL NOME DEL PRODOTTO (o 'totale' per visualizzare il totale del carrello) ");
